@@ -11,38 +11,52 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+    <form action="" method="get">
 
       <!-- Add a label for 'fullname'-->
-
+    <label for="fullname">fullname</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+    <input type="text" id="fullname" name="fullname">
+    
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
+    <input type="required" name="enter name" placeholder="Enter Name">
       <!-- Add a label for 'email'-->
+    <label for="email">email</label>  
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
+    <input type="email" id="email" name="email">
 
+      <!-- Include the place holder text "Enter Email" and make this input required -->
+    <input type="required" name="email" placeholder="Enter Email">
 
       <!-- Add a label for 'phone'-->
-
+      <label for="phone">phone</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
+    <input type="tel" id="phone" name="phone">
 
+      <!-- Include the place holder text "Enter Telephone (optional)" -->
+    <input type="tel" id="enter telephone" placeholder="Enter Telephone (optional)">
 
       <!-- Add a label for 'message'-->
-
+    <label for="message">message</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
       <!-- Include the place holder text "Enter Message" -->
-
-
+    <input type="text" placeholder="Enter Message">
+    
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
+    <label for="pets">choose a pet</label>
+    <input type="checkbox" id="pet1" name="pet1" value="dog">
+    <label for="pet1">I have a dog</label>
+    <input type="checkbox" id="pet2" name="pet2" value="parrot">
+    <label for="pet2">I have a parrot</label>
+    <input type="checkbox" id="pet3" name="pet3" value="cow">
+    <label for="pet3">I have a cow</label>
 
       <!-- Add an input with the type set to 'submit' -->
-
+    <input type="submit" id="submit">
     
+    </form>
   </body>
 </html>
